@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@keyframes float {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; }
+}
+.animate-float {
+  animation: float 6s linear infinite;
+}
+
+@keyframes butterfly {
+  0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
+  100% { transform: translate(50px, -50px) rotate(360deg); opacity: 0; }
+}
+.animate-butterfly {
+  animation: butterfly 10s linear infinite;
+}
