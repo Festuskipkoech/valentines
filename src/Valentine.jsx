@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { Heart, Send, Music, Moon, Rainbow, Flower } from 'lucide-react';
 import Footer from './Footer';
 // Replace with your actual Gemini API key
-const GEMINI_API_KEY = 'AIzaSyCIOQIzVtzWdrVxZXs-AznY6M6SHll0ezM';
+const GEMINI_API_KEY = 'GEMINI-API-KEY-HERE';
 
 const Valentine = () => {
   // Stages: "form" (sender fills data), "share" (link copied and instructions), "message" (recipient sees message)
